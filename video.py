@@ -17,10 +17,14 @@ def main():
         help='FPS (Frames per second) setting for the video.')
     args = parser.parse_args()
 
-    video_file = args.image_folder + '.mp4'
+    video_file = args.image_folder + 'output.mp4'
     print("Creating video {}, FPS={}".format(video_file, args.fps))
     clip = ImageSequenceClip(args.image_folder, fps=args.fps)
-    clip.write_videofile(video_file)
+    clip.write_videofile(video_file, )
+
+def cv2Video():
+    fourcc = cv2.VideoWriter_fourcc(*'MJPG')
+    vid = cv2.VideoWriter("preprocessing.avi", fourcc, 20.0, (imgsize[0], imgsize[1]))
 
 
 if __name__ == '__main__':
