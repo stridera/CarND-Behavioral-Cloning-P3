@@ -109,7 +109,7 @@ I train the model using 20% as validation data and 2 epochs.  I found that if I 
 The final run seemed to go well.  It made me worry around some turns, but it corrected well.  At first it would break every time it hit the bridge, but adding the bridge training data made it so it handles it smoothly.
 
 Here is a video of the final run:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xETRU1RBfjk" frameborder="0" allowfullscreen></iframe>
+[![Final Video](http://img.youtube.com/vi/xETRU1RBfjk/0.jpg)](http://www.youtube.com/watch?v=xETRU1RBfjk)
 
 ### Failed Approaches
 
