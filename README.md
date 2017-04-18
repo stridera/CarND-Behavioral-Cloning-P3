@@ -2,6 +2,10 @@
 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
+Review
+---
+This project has been completed.  You can view [the full writeup here](https://github.com/stridera/CarND-Behavioral-Cloning-P3/blob/master/writeup.md).
+
 Overview
 ---
 This repository contains starting files for P3, Behavioral Cloning.
